@@ -3,7 +3,7 @@ $(document).ready(function(){
         function onDeviceReady() {
             if (window.StatusBar) window.StatusBar.hide();
             base_url ='http://www.pointonesolutions.com.ph/shell_pos/app';
-            new_address();
+            new_address(base_url);
         }
 
             function new_address(url){
